@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ChatService {
-  static const String _apiKey = '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'; // Remplace par ta clé
+  static const String _apiKey = ''; // Remplace par ta clé
   static const String _apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
 
   static Future<String> sendMessage(String message) async {
